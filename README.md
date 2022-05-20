@@ -102,6 +102,9 @@ Examples for source code writing
        	&ensp;&ensp;3. ... ;            
        	&ensp;&ensp;4. ... ; <br />
    	&ensp;do_while x > y; 
-   	
+
+Credits
+-------
+* Niccolò Ciavarella <niccolo.ciavarella@email.com>
 
        	
