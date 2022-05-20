@@ -1,6 +1,24 @@
 Programming Language 73 [PL73]
 ==============================
 
+Info
+====
+PL73 is developed to encourage Object-oriented programming, bringing cross-platform and lightweight apps. <br />
+It combines the power of Java with the formalism of other simpler language. <br />
+
+About
+=====
+This project started with EPL (github.com/nickciava98/epl) and year over year it has been improved.
+The goal of this project was create a new programming language based on the strong Java foundation, but with something more in terms of easy of coding.
+With PL73 and, obviously Java, you can create apps for every device and every OS.
+
+Write once, run more!
+---------------------
+
+Configuration
+=============
+To start building and compiling with PL73, Java JDK is needed.
+
 Usage
 =====
 Examples for source code writing
@@ -84,4 +102,6 @@ Examples for source code writing
        	&ensp;&ensp;3. ... ;            
        	&ensp;&ensp;4. ... ; <br />
    	&ensp;do_while x > y; 
+   	
+
        	
