@@ -41,7 +41,7 @@ Examples for source code writing
        	&ensp;&ensp;2. ... ; <br />
        	&ensp;&ensp;3. ... ;            
        	&ensp;&ensp;4. ... ; <br />
-   	&ensp;end; <br /> <br /> <br />
+   	&ensp;end; <br /> <br />
  
 <b> Example 2: </b> <br /> <br />
    	&ensp;if x > y <br />
