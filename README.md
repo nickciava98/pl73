@@ -26,10 +26,10 @@ Examples for source code writing
 ### var - Variable declaration (int, float, string, boolean)
   
 <b> Example: </b> <br /> <br />
-	&ensp;int     --> var x = 1; <br />
-	&ensp;float   --> var x = 1.2; <br />
-	&ensp;String  --> var x = "testo"; <br />
-	&ensp;boolean --> var x = true || var y = false; 
+	&ensp;int - var x = 1; <br />
+	&ensp;float - var x = 1.2; <br />
+	&ensp;String - var x = "testo"; <br />
+	&ensp;boolean - var x = true || var y = false; 
    
 ### input - Input from standard input
   
