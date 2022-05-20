@@ -1,88 +1,87 @@
 Programming Language 73 [PL73]
 ==============================
 
-### Usage
-Example for source code writing
+Usage
+=====
+Examples for source code writing
 
-var  --> Variable declaration (int, float, string, boolean)
+### var - Variable declaration (int, float, string, boolean)
   
-Example:
-	int     --> var x = 1;
-	float   --> var x = 1.2;
-	String  --> var x = "testo";
-	boolean --> var x = true || var y = false;
+<b> Example: </b> <br /> <br />
+	&ensp;int     --> var x = 1; <br />
+	&ensp;float   --> var x = 1.2; <br />
+	&ensp;String  --> var x = "testo"; <br />
+	&ensp;boolean --> var x = true || var y = false; 
    
-input  --> Input from stdin
+### input - Input from standard input
   
-Example:
-	input x;
+<b> Example: </b> <br /> <br />
+	&ensp;input x; 
   
-println  --> Output on stdout
+### println - Output on standard output
   
-Example:
-	println x;
+<b> Example: </b> <br /> <br />
+	&ensp;println x; 
   
-main --> Main method
+### main - Main method
   
-Example:
-	main
-    	1. ... ;
-    	2. ... ;
-    	3. ... ;            
-    	4. ... ;
-	end; 
+<b> Example: </b> <br /> <br />
+	&ensp;main <br />
+    	&ensp;&ensp;1. ... ; <br />
+    	&ensp;&ensp;2. ... ; <br />
+    	&ensp;&ensp;3. ... ; <br />            
+    	&ensp;&ensp;4. ... ; <br />
+	&ensp;end; 
   
-if   --> If
-elif --> Else-if
-else --> Else
+### if - If, elif - Else-if, else - Else
  
-Example 1:
-	if x > y
-    	1. ... ;
-       	2. ... ;
-       	3. ... ;            
-       	4. ... ;
-   	end;
+<b> Example 1: </b> <br /> <br />
+	&ensp;if x > y <br />
+    	&ensp;&ensp;1. ... ; <br />
+       	&ensp;&ensp;2. ... ; <br />
+       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;4. ... ; <br />
+   	&ensp;end; <br /> <br /> <br />
  
-Example 2:
-   	if x > y
-   		1. ... ;
-       	2. ... ;
-       	3. ... ;            
-       	4. ... ;
-   	elif
-       	5. ... ;
-       	6. ... ;
-       	7. ... ;            
-       	8. ... ;
-   	end;
+<b> Example 2: </b> <br /> <br />
+   	&ensp;if x > y <br />
+   		&ensp;&ensp;1. ... ; <br />
+       	&ensp;&ensp;2. ... ; <br />
+       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;4. ... ; <br />
+   	&ensp;elif <br />
+       	&ensp;&ensp;5. ... ; <br />
+       	&ensp;&ensp;6. ... ; <br />
+       	&ensp;&ensp;7. ... ; <br />            
+       	&ensp;&ensp;8. ... ; <br />
+   	&ensp;end;
  
-for  --> For cicle
+### for - For cicle
   
-Example:
-   	for 9
-       	1. ... ;
-       	2. ... ;
-       	3. ... ;            
-       	4. ... ;
-   	end;
+<b> Example: </b> <br /> <br />
+   	&ensp;for 9 <br />
+       	&ensp;&ensp;1. ... ; <br />
+       	&ensp;&ensp;2. ... ; <br />
+       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;4. ... ; <br />
+   	&ensp;end; 
   
-while  --> While   
+### while - While   
   
-Example:
-	while x > y
-    	1. ... ;
-       	2. ... ;
-       	3. ... ;            
-       	4. ... ;
-   	end;
+<b> Example: </b> <br /> <br />
+	&ensp;while x > y <br />
+    	&ensp;&ensp;1. ... ; <br />
+       	&ensp;&ensp;2. ... ; <br />
+       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;4. ... ; <br />
+   	&ensp;end; 
   
-do_while  --> Do-while
+### do_while - Do-while
   
-Example:
-		1. ... ;
-    	2. ... ;
-       	3. ... ;            
-       	4. ... ;
-   	do_while x > y;
+<b> Example: </b> <br /> <br />
+		&ensp;&ensp;1. ... ; <br />
+    	&ensp;&ensp;2. ... ; <br />
+       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;4. ... ; <br />
+   	&ensp;do_while x > y; 
        	
