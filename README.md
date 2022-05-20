@@ -29,7 +29,7 @@ Examples for source code writing
 	&ensp;main <br />
     	&ensp;&ensp;1. ... ; <br />
     	&ensp;&ensp;2. ... ; <br />
-    	&ensp;&ensp;3. ... ; <br />            
+    	&ensp;&ensp;3. ... ;             
     	&ensp;&ensp;4. ... ; <br />
 	&ensp;end; 
   
@@ -39,7 +39,7 @@ Examples for source code writing
 	&ensp;if x > y <br />
     	&ensp;&ensp;1. ... ; <br />
        	&ensp;&ensp;2. ... ; <br />
-       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;3. ... ;            
        	&ensp;&ensp;4. ... ; <br />
    	&ensp;end; <br /> <br /> <br />
  
@@ -47,12 +47,12 @@ Examples for source code writing
    	&ensp;if x > y <br />
    		&ensp;&ensp;1. ... ; <br />
        	&ensp;&ensp;2. ... ; <br />
-       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;3. ... ;            
        	&ensp;&ensp;4. ... ; <br />
    	&ensp;elif <br />
        	&ensp;&ensp;5. ... ; <br />
        	&ensp;&ensp;6. ... ; <br />
-       	&ensp;&ensp;7. ... ; <br />            
+       	&ensp;&ensp;7. ... ;            
        	&ensp;&ensp;8. ... ; <br />
    	&ensp;end;
  
@@ -62,7 +62,7 @@ Examples for source code writing
    	&ensp;for 9 <br />
        	&ensp;&ensp;1. ... ; <br />
        	&ensp;&ensp;2. ... ; <br />
-       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;3. ... ;           
        	&ensp;&ensp;4. ... ; <br />
    	&ensp;end; 
   
@@ -72,7 +72,7 @@ Examples for source code writing
 	&ensp;while x > y <br />
     	&ensp;&ensp;1. ... ; <br />
        	&ensp;&ensp;2. ... ; <br />
-       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;3. ... ;            
        	&ensp;&ensp;4. ... ; <br />
    	&ensp;end; 
   
@@ -81,7 +81,7 @@ Examples for source code writing
 <b> Example: </b> <br /> <br />
 		&ensp;&ensp;1. ... ; <br />
     	&ensp;&ensp;2. ... ; <br />
-       	&ensp;&ensp;3. ... ; <br />            
+       	&ensp;&ensp;3. ... ;            
        	&ensp;&ensp;4. ... ; <br />
    	&ensp;do_while x > y; 
        	
