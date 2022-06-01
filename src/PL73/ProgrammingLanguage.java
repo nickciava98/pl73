@@ -30,17 +30,21 @@ public class ProgrammingLanguage {
     public static String[] command = {
     		"var", "input", "println", "main", "if", "elif", 
     		"for", "while", "*", "do_while", "end"};
-    public static String path1 = "sorgente.txt", 
-    		path2 = "java.txt", write = "", read = "";
+    public static String path1 = "sorgente.pl73", 
+    		path2 = "sorgente.java", write = "", read = "";
     
     public static void main(String[] args) throws IOException {  
-        File f = new File(path1);
-        FileReader fr = new FileReader(f);
+        FileReader fr = new FileReader(new File(path1));
         BufferedReader br = new BufferedReader(fr);
-        File f2 = new File(path2);
-        FileWriter fw = new FileWriter(f2, true); 
+        FileWriter fw = new FileWriter(new File(path2), true); 
+        
+        fw.write("public class sorgente {\n");
+        fw.write("public static void main(String[] args) {\n");
                 
         codeLine = br.readLine();
+        
+        if (codeLine != null)
+        	codeLine = codeLine.trim();
         
         while (codeLine != null) {        
             if (codeLine.length() > 0) {
@@ -78,7 +82,7 @@ public class ProgrammingLanguage {
 	                i = j;
 	                ncom = 0;	                
 	                
-	                while (ncom < 11 
+	                while (ncom < 10 
 	                		& !function.equals(command[ncom])) { 
 	                    ncom++; 
 	                }
@@ -358,7 +362,7 @@ public class ProgrammingLanguage {
 	                            System.out.println(
 	                            		"println: " + word1);
 	                            
-	                            write = "System.out.println(word1);";
+	                            write = "System.out.println(" + word1 + ");";
 	                            
 	                            fw.write(write);
 	                            fw.write("\n");
@@ -594,8 +598,13 @@ public class ProgrammingLanguage {
 	                		"Error. No endline ';' detected");
 	        
 	            codeLine = br.readLine();
+	            
+	            if (codeLine != null)
+	            	codeLine = codeLine.trim();
 	        }
         }
+        
+        fw.write("\n}}");
         
         fw.close();
         fr.close();
